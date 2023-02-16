@@ -25,12 +25,14 @@ export const MainLayout = ({ children, router }: MainLayoutProps) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Mikhail Guskov - Homepage</title>
+        <meta name="description" content="Personal site" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta property="og:site_name" content="Mikhail Guskov" />
         <meta name="og:title" content="Mikhail Guskov" />
+        <meta property="og:description" content="Personal site" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/card.png" />
       </Head>
