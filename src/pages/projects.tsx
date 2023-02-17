@@ -16,25 +16,25 @@ const Projects = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
+        <Section delay={0.1}>
+          <ProjectGridItem id="5kdigital" title="5K Digital" thumbnail={digitalPreview}>
+            The modern digital book library
+          </ProjectGridItem>
+        </Section>
+        <Section delay={0.1}>
           <ProjectGridItem id="shortcast" title="Shortcast" thumbnail={shortcastPreview}>
             Simple screen recording tool
           </ProjectGridItem>
         </Section>
-        <Section>
+
+        <Section delay={0.2}>
           <ProjectGridItem id="onespace" title="OneSpace" thumbnail={onespacePreview}>
             Branded video meeting rooms
           </ProjectGridItem>
         </Section>
-
-        <Section delay={0.15}>
+        <Section delay={0.2}>
           <ProjectGridItem id="takeprofit" title="TakeProfit" thumbnail={takeprofitPreview}>
             Volatility killer trading bots
-          </ProjectGridItem>
-        </Section>
-        <Section delay={0.15}>
-          <ProjectGridItem id="5kdigital" title="5K Digital" thumbnail={digitalPreview}>
-            The modern digital book library
           </ProjectGridItem>
         </Section>
       </SimpleGrid>

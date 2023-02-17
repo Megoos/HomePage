@@ -16,7 +16,7 @@ const Digital = () => (
         The Modern Digital Book Library. Save time and money, learn and develop by reading short
         summaries of books in the Kazakh language.
       </P>
-      <List ml={4} my={4}>
+      <List ml={4} mt={4} mb={5}>
         <ListItem>
           <ProjectMeta>Website</ProjectMeta>
           <Link href="https://5kdigital.kz/en" target="_blank" rel="noreferrer">

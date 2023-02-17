@@ -18,7 +18,7 @@ const Shortcast = () => (
         single link. Shortcast Google Chrome extension helps you deliver everything that matters in
         just a couple of clicks.
       </P>
-      <List ml={4} my={4}>
+      <List ml={4} mt={4} mb={5}>
         <ListItem>
           <ProjectMeta>Website</ProjectMeta>
           <Link href="https://shortcast.io/" target="_blank" rel="noreferrer">

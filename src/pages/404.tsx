@@ -3,7 +3,7 @@ import { Box, Button, Container, Divider, Heading, Text } from '@chakra-ui/react
 
 const Error404 = () => {
   return (
-    <Container>
+    <Container mt={8} textAlign="center">
       <Heading as="h1">Not found</Heading>
       <Text>The page you&apos;re looking for was not found.</Text>
       <Divider my={6} />

@@ -16,7 +16,7 @@ const TakeProfir = () => (
         Volatility killer trading bots for Binance. Turn on the self-driving mode for your trading
         strategy.
       </P>
-      <List ml={4} my={4}>
+      <List ml={4} mt={4} mb={5}>
         <ListItem>
           <ProjectMeta>Website</ProjectMeta>
           <Link href="https://takeprofit.ai/" target="_blank" rel="noreferrer">

@@ -17,7 +17,7 @@ const OneSpace = () => (
         Branded video meeting rooms. Run interviews, meet with your team, clients and partners as if
         you were in the same space.
       </P>
-      <List ml={4} my={4}>
+      <List ml={4} mt={4} mb={5}>
         <ListItem>
           <ProjectMeta>Website</ProjectMeta>
           <Link href="https://onespace.co/" target="_blank" rel="noreferrer">
