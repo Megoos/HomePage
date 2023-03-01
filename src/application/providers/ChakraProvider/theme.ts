@@ -1,6 +1,6 @@
+import { M_PLUS_Rounded_1c } from 'next/font/google';
 import { extendTheme, ThemeOverride } from '@chakra-ui/react';
 import { mode } from '@chakra-ui/theme-tools';
-import { M_PLUS_Rounded_1c } from '@next/font/google';
 
 export const mPlusFont = M_PLUS_Rounded_1c({
   display: 'auto',

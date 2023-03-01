@@ -72,7 +72,7 @@ function Home() {
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           css={{ backdropFilter: 'blur(10px)' }}
         >
-          Hello, I&apos;m a full-stack developer based in Thailand!
+          Hello, I&apos;m a full-stack developer living in Thailand now!
         </Box>
 
         <Section delay={0.1}>
@@ -80,10 +80,9 @@ function Home() {
             About
           </Heading>
           <P>
-            I&apos;m a freelance and a full-stack developer based in Thailand with a passion for
-            building digital services and stuffs. I have deep expertise in web technologies based on
-            JavaScript both front-end, back-end and infrastructure. I like to learn new things and
-            solve complex problems! I publish articles on various topics on my blog on{' '}
+            I have deep expertise in web technologies based on JavaScript both front-end, back-end
+            and infrastructure. I like to learn new things and solve complex problems! I publish
+            articles on various topics on my blog on{' '}
             <Link href="https://medium.com/@meguskov" target="_blank" rel="noreferrer">
               Medium
             </Link>
@@ -96,7 +95,7 @@ function Home() {
           <Box textAlign="center" my={4}>
             <Button
               as={NextLink}
-              href="/works"
+              href="/projects"
               scroll={false}
               rightIcon={<ChevronRightIcon />}
               colorScheme="orange"
