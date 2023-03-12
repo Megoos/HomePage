@@ -10,6 +10,7 @@ import grpcImg from '@/assets/images/posts/implementation-of-grpc.png';
 import hooksReduxImg from '@/assets/images/posts/react-hooks-redux.png';
 import testingImg from '@/assets/images/posts/react-testing-library.png';
 import genericImg from '@/assets/images/posts/typescript-generic.png';
+import typingApiImg from '@/assets/images/posts/typing-api-response.png';
 
 const Posts = () => (
   <PageLayout title="Posts">
@@ -21,14 +22,14 @@ const Posts = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <PostGridItem
+            title="Typing API response — TypeScript"
+            thumbnail={typingApiImg}
+            href="https://medium.com/@meguskov/typing-api-response-typescript-7b88628f5e89"
+          />
+          <PostGridItem
             title="Implementation of gRPC in web and server with TypeScript"
             thumbnail={grpcImg}
             href="https://medium.com/front-end-weekly/implementation-of-grpc-in-web-and-server-with-typescript-165e8ca0155b"
-          />
-          <PostGridItem
-            title="Discriminating Unions — Typescript"
-            thumbnail={unionsImg}
-            href="https://medium.com/@meguskov/typescript-tips-and-tricks-discriminating-unions-c7ebd9f3b881"
           />
         </SimpleGrid>
       </Section>
@@ -36,20 +37,25 @@ const Posts = () => (
       <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <PostGridItem
+            title="Discriminating Unions — Typescript"
+            thumbnail={unionsImg}
+            href="https://medium.com/@meguskov/typescript-tips-and-tricks-discriminating-unions-c7ebd9f3b881"
+          />
+          <PostGridItem
             title="Aspect ratio box — CSS"
             thumbnail={ratioImg}
             href="https://medium.com/@meguskov/aspect-ratio-box-css-tricks-8a8096b03d8d"
-          />
-          <PostGridItem
-            title="Typescript Generic React Components"
-            thumbnail={genericImg}
-            href="https://medium.com/@meguskov/typescript-generic-react-components-e8a794c8a694"
           />
         </SimpleGrid>
       </Section>
 
       <Section delay={0.5}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <PostGridItem
+            title="Typescript Generic React Components"
+            thumbnail={genericImg}
+            href="https://medium.com/@meguskov/typescript-generic-react-components-e8a794c8a694"
+          />
           <PostGridItem
             title="Testing with react-testing-library"
             thumbnail={testingImg}
