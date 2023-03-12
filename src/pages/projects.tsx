@@ -15,7 +15,7 @@ const Projects = () => (
         Projects
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 2, 2]} gap={6}>
         <Section delay={0.1}>
           <ProjectGridItem id="5kdigital" title="5K Digital" thumbnail={digitalPreview}>
             The modern digital book library
